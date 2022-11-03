@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+#hero{
+	padding: 5% 0;
+	padding-top: 8%;
+	align-content: center;
+	background-color:#eee;
+}
+
+#hero h1{
+	align: center;
+	font-size: 60px;
+	font-weight: 400;
+	margin-top: 17%;
+	}
+.cuadro{
+	background-color: #FFDA79;
+	color: #fff;
+	padding: 12px 30px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.btn-twilo{
+	background-color:#111;
+	color: #fff;
+	padding: 12px 30px;
+	font-size: 12px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+#about{
+	text-align: center;
+	background-color: #cce4e4;
+	color: #17494d;
+}
+
+#worldwide{
+	text-align: center;
+	
+}
+
+#contact{
+	text-align: center;
+	background-color: #d6baf5;
+}
+
+
+footer{
+	padding: 30px;
+}
